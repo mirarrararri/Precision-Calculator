@@ -1,12 +1,7 @@
-
-
-# Meralyn M. Ga-as
-# BSIT 1-1
-
-#CC5 - MATH OPERATIONS IMPLEMENTING USER-DEFINED METHOD (Simple Calculator with Exception Handling)
+# MATH OPERATIONS IMPLEMENTING USER-DEFINED METHOD (Simple Calculator with Exception Handling)
 # Exceptions: ZeroDivisionError, ValueError
 
-#To validate if input are integers
+#to validate if input are integers
 def validate_integers(val1, val2):
     if not (val1.isdigit() and val2.isdigit()):
         print("Error message: Invalid input data.\nInput must be an integer value.")
@@ -74,5 +69,6 @@ def main():
 
 # output To run the program
 main()
+
 
 
