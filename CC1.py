@@ -1,25 +1,25 @@
 # MATH OPERATIONS IMPLEMENTING USER-DEFINED METHOD (Simple Calculator with Exception Handling)
 # Exceptions: ZeroDivisionError, ValueError
 
-#to validate if input are integers
+#validate if input are integers
 def validate_integers(val1, val2):
     if not (val1.isdigit() and val2.isdigit()):
         print("Error message: Invalid input data.\nInput must be an integer value.")
         return False
     return True
 
-# to validate operation input
+#validate operation input
 def validate_operation(op):
     if not (op.isalpha() and op.lower() in ['a', 'b', 'c', 'd']):
         print("Error message: Invalid operation.\nInput operation must be frm a to d only.")
         return False
     return True
 
-# Calculate sum and return result
+#Calculate sum and return result
 def calcSum(a, b):
     return a + b
 
-# Calculate difference and print result
+#Calculate difference and print result
 def calcDifference(a, b):
     print(f"Result: Difference of {a} and {b} is {a - b}")
 
@@ -31,7 +31,7 @@ def calcProduct(a, b):
 def calcQuotient(a, b):
     return a / b
 
-# input
+#input
 def main():
     try:
         num1 = input("Enter first number: ")
@@ -67,8 +67,9 @@ def main():
     except ValueError:
         print("Error: Invalid input. Please enter whole numbers only.")
 
-# output To run the program
+#output To run the program
 main()
+
 
 
 
